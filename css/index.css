@@ -1,15 +1,9 @@
 @charset "utf-8";
 
-nav.floating {
-    position: absolute;
-    top: 100px;
-    left: 50px;
-    background-color: #d0d0d0;
-}
 
 .first-view {
     height: calc(100vh - 110px);
-    background-image: url(../images/index/bg_main.jpg);
+    background-image: url(../images/index/pati-index.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -74,6 +68,9 @@ img {
     max-width: 100%;
 }
 
+.header{
+    background-color:#f3f93c;
+}
 .header-inner {
     max-width: 1200px;
     height: 110px;
@@ -84,6 +81,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #f3f93c;
 }
 
 .toggle-menu-button {
@@ -94,6 +92,7 @@ img {
     display: block;
     width: 170px;
 }
+
 
 .site-menu ul {
     display: flex;
@@ -125,7 +124,7 @@ img {
         top: 0;
         left: 0;
         right: 0;
-        background-color: #ffffff;
+        background-color: #f3f93c;
         height: 50px;
         z-index: 10;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
@@ -143,8 +142,8 @@ img {
         top: 100%;
         left: 0;
         right: 0;
-        color: #ffffff;
-        background-color: #736e62;
+        color: #000000;
+        background-color: #edf42a;
         padding-top: 30px;
         padding-bottom: 50px;
         display: none;
@@ -186,12 +185,13 @@ img {
 }
 .footer {
     color: #ffffff;
-    background-color: #24211b;
+    background-color: #ff2a2a;
     padding-top: 30px;
     padding-bottom: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 14pt;
 }
 
 .footer-logo {
